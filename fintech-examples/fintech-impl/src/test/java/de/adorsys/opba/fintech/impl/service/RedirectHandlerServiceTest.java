@@ -57,7 +57,7 @@ class RedirectHandlerServiceTest {
 
     @BeforeEach
     void setup() {
-        redirectHandlerService = new RedirectHandlerService(uiConfig, redirectUrlRepository, authorizeService);
+        redirectHandlerService = new RedirectHandlerService(uiConfig, redirectUrlRepository, authorizeService, tokenService);
     }
 
     @Test
