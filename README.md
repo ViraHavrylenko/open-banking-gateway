@@ -32,7 +32,7 @@ The following picture displays the overall security concept of this banking gate
 ![Security concept](docs/img/security-concept.png)
 
 Detailed security concept schema is here:
-[Security concept details](docs/img/security-concept-details.svg)
+[Security concept details](docs/img/security-concept-details.png)
 
 ## Information for developers:
  
