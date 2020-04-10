@@ -1,9 +1,12 @@
 package de.adorsys.opba.tppauthapi.controller;
 
 import de.adorsys.opba.tppauthapi.config.CookieProperties;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseCookie;
 
+@Builder
 @RequiredArgsConstructor
 public class TppAuthResponseCookie {
 
